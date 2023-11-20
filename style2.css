@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(images/istockphoto-1187500241-1024x1024.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#osnovni {
+  width: 700px;
+  height: 1000px;
+  /* background-color: rgba(127, 255, 212, 0.3); */
+  margin: 30px auto;
+  overflow: hidden;
+}
+main {
+  float: left;
+  width: 250px;
+}
+article {
+  width: 450px;
+  /* background-color: rgba(230, 115, 39, 0.3); */
+  height: 100pc;
+  float: left;
+}
+#osnovni main ul {
+  padding: 0;
+  list-style: none;
+}
+#osnovni main ul li {
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+#osnovni main ul li:hover {
+  background-color: rgb(26, 52, 54);
+  color: aliceblue;
+}
+#osnovni table {
+  border: 1px solid black;
+  width: 400px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: antiquewhite;
+}
+#osnovni table td {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#osnovni p {
+  margin: 19px;
+}
+#osnovni a {
+  color: aliceblue;
+}

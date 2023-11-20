@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, rgb(89, 134, 148), rgb(235, 176, 186));
+}
+.glavni {
+  width: 700px;
+  margin: 30px auto;
+  overflow: hidden;
+}
+.glavni image {
+  float: left;
+}
+.glavni p {
+  float: left;
+  width: 300px;
+}

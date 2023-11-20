@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(89, 134, 148), rgb(235, 176, 186));
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#glavni {
+  width: 900px;
+  margin: 0 auto 30px;
+}
+#glavni nav {
+  background-color: rgb(203, 194, 211);
+  display: flex;
+  border-radius: 18px;
+  overflow: hidden;
+}
+#glavni nav > a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  color: aliceblue;
+}
+.ikone {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+}
+.ikone a {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-top: 15px;
+}
+.ikone > a:hover {
+}
+.ikone img {
+  margin-right: 15px;
+}
+#glavni nav a:hover {
+  /* background-color: aliceblue; */
+  color: black;
+}
+main {
+  margin-top: 19px;
+}
+main .slika {
+  float: left;
+}
+main article {
+  float: right;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+
+  width: 500px;
+  padding: 10px;
+}
+.cleaner {
+  clear: both;
+}
+.tekst {
+  margin: 19px 0;
+}
+.tekst h1 {
+  margin-top: 30px;
+  text-align: center;
+}
+.fotografije {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.fotografije img {
+  width: 280px;
+  float: left;
+  margin-right: 20px;
+}
+footer {
+  background-color: rgb(53, 55, 58);
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 18px;
+  color: aliceblue;
+  margin-top: 30px;
+}
+.mesta {
+  width: 700px;
+  margin: 30px 70px;
+}
